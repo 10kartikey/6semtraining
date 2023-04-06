@@ -1,0 +1,73 @@
+/*the tag selector*/
+body{
+    background-color: thistle;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+p{
+    color: brown;
+}
+
+/*dimension px,em,% */
+/*color : name,#000000,rgb(r,g,b)*/
+
+/*class selector*/
+.first_para{
+    color: red;
+}
+.youtube{
+    background-color: aqua;
+}
+.circular{
+    border-radius: 100% ;
+}
+/*id selector*/
+#special{
+    font-weight: bold;
+    color:red;
+    background-color: greenyellow;
+}
+/*grouping the selectors*/
+.ekgroup,h1{
+    font-weight: bold;
+    color: crimson;
+    background-color: pink;
+}
+/* pseudo selector */
+.mee{
+    color: black;
+    font-style: italic;
+}
+.mee:hover{
+    
+    background-color: darkgreen;
+    color: yellow;
+    font-weight: bold;
+}
+.square100{
+    height: 100px;
+    width: 100px;
+
+}
+.firstbox{
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.secondbox{
+    background-color: green;
+    position: relative;
+    margin-left: 100px;
+    /* display: none;     */
+    /* visibility: hidden; */
+}
+.thirdbox{
+    background-color: blue;
+    position: relative;
+    margin-left: 150px;
+    margin-top: -50px;
+}
