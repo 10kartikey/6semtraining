@@ -1,5 +1,53 @@
+/* defining the global variables */
+:root{
+    --primarycolor: #245953;
+    --secondarycolor: #CEEDC7;
+    --titlefont: 'Great Vibes', cursive;
+    --fontdefaulttextfont: 'Lato', sans-serif;
+    --fontdefaultheadingfont: 'Sacramento', cursive;
+}
+
+/* main css */
+body{
+    margin: 0%;
+    
+}
+
+.topsection{
+    color: var(--primarycolor);
+    background-color: var(--secondarycolor);
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 100px;
+}
+
+.headinggroup{
+    display: inline-block;
+    margin-top: 100px;
+}
+
 .heading{
-    font-style: italic;
-    /* font-family: monospace; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--titlefont);
+    margin: 0 ;
+}
+
+.bio{
+    font-family:var(--fontdefaulttextfont);
+    margin:0;
+}
+.top-cloud{
+    position: absolute;
+    margin-block-start: -100px;
+    margin-left: 250px;
+    width: 100px;
+}
+.bottomcloud{
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -120px ;
+    width: 100px;
+}
+.mountain{
+    width: 400px;
+    margin: -4px;
 }
