@@ -1,0 +1,90 @@
+/* defining the global variables */
+:root{
+    --primarycolor: #245953;
+    --secondarycolor: #CEEDC7;
+    --mytitlefont: 'Great Vibes',cursive;
+    --titlefont: 'Sacramento', cursive;
+    --fontdefaulttextfont: 'Lato', sans-serif;
+    --fontdefaultheadingfont: 'Sacramento', cursive;
+}
+
+/* main css */
+body{
+    margin: 0%;
+    color: var(--primarycolor);
+}
+
+h2{
+    font-family:var(--fontdefaulttextfont);
+    margin:0;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.topsection{
+    
+    background-color: var(--secondarycolor);
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* .headinggroup{
+    display: inline-block;
+    margin-top: 100px;
+} */
+
+.heading{
+    font-family: var(--mytitlefont);
+    font-size: 3.75rem;
+    margin: 0px ;
+}
+
+.top-cloud{
+    position: absolute;
+    margin-block-start: -70px;
+    margin-left: 450px;
+    /* margin-top: 5px; */
+    width: 120px;
+}
+.bottomcloud{
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -350px ;
+    margin-top: -10px;
+    /* margin-bottom: 80px; */
+    width: 130px;
+}
+.mountain{
+    width: 300px;
+    margin: -4px;
+    padding-top: 10px;
+}
+
+.middlesection{
+    /* background-color: var(--secondarycolor); */
+    text-align: center;
+    margin: 50px auto 100px auto;
+    width: 75%;
+}
+.profilepic{
+    border-radius: 100%;
+    width: 200px;
+    margin: 100px auto 50px auto;
+    display: block;
+}
+
+.intro{
+    width: 50% ;
+    margin: auto ;
+    line-height: 2;
+}
+
+hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: var(--secondarycolor);
+    border: dotted 6px;
+    border-bottom: none;
+    width: 15%;
+}
