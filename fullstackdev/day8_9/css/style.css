@@ -1,6 +1,7 @@
 /* defining the global variables */
 :root{
     --primarycolor: #245953;
+    --primaryaccentcolor: #3b706a;
     --secondarycolor: #CEEDC7;
     --mytitlefont: 'Great Vibes',cursive;
     --titlefont: 'Sacramento', cursive;
@@ -11,7 +12,9 @@
 /* main css */
 body{
     margin: 0%;
+    font-family: var(--fontdefaulttextfont);
     color: var(--primarycolor);
+    background-color: #F6FFDE;
 }
 
 h2{
@@ -65,7 +68,7 @@ h2{
     /* background-color: var(--secondarycolor); */
     text-align: center;
     margin: 50px auto 100px auto;
-    width: 75%;
+    width: 60%;
 }
 .profilepic{
     border-radius: 100%;
@@ -75,7 +78,7 @@ h2{
 }
 
 .intro{
-    width: 50% ;
+    width: 70% ;
     margin: auto ;
     line-height: 2;
 }
@@ -87,4 +90,77 @@ hr{
     border: dotted 6px;
     border-bottom: none;
     width: 15%;
+}
+
+.my-skills{
+    margin-bottom: 60px;
+}
+
+.skill-image{
+    width: 150px;
+}
+
+.left{
+    float: left;
+    margin-right: 40px;
+}
+
+.right{
+    float: right;
+    margin-left: 40px;
+}
+.skill-row{
+    text-align: left;
+    margin-bottom: 120px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    /* background-color: #245953; */
+}
+
+/* TOP RIGHT BOTTOM LEFT */
+/* VERTICAL HORIZONTAL */
+
+.contact{
+    background-color: var(--primarycolor);
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* margin: 200px auto; */
+}
+
+.contact:hover{
+    background-color: var(--primaryaccentcolor);
+}
+
+.bottom-section{
+    margin: 0px auto;
+    text-align: center; 
+    background-color: var(--primarycolor);
+}
+.social{
+    padding: 40px 0px;
+}
+
+.copyright{
+    margin: 0;
+    color: white;
+    padding-bottom: 40px;
+    font-size: 0.75rem;
+}
+
+.bottom-para{
+    margin: 50px;
+}
+
+.social-link{
+    /* padding: 0px 5px; */
+    margin: 0px 40px;
+    color: var(--primaryaccentcolor);
+}
+
+.social-link:hover{
+    color: #9bc5c0;
 }
