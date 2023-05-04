@@ -1,0 +1,88 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    color: beige;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: yellow;
+}
+
+@media screen and (min-width:1000px){
+    body{
+        background-color: brown;
+    }
+}
+
+@media  screen and (min-width:700px) and (max-width:999px) {
+    body{
+    background-color: burlywood;  
+    } 
+}
+
+@media screen and (max-width:500px) {
+    div{
+        display: block;
+    }
+}
+@media screen and (min-width:320px) /*and (max-width:480px)*/ {
+    .red{
+        background-color: blue;
+    }
+}
+@media screen and (min-width:481px) /*and (max-width:768px)*/ {
+    .red{
+        background-color: orange;
+    }
+}
+@media screen and (min-width:769px) /*and (max-width:1024px)*/ {
+    .red{
+        background-color: yellow;
+    }
+}
+@media screen and (min-width:1025px) /*and (max-width:1200px)*/ {
+    .red{
+        background-color: brown;
+    }
+}
+@media screen and (min-width:1200px) {
+    .red{
+        background-color: red;
+    }
+}
+@media screen and (prefers-color-scheme : dark) {
+    body{
+        background-color: blanchedalmond;
+    }
+}
+@media (orientation : landscape) {
+    body{
+        /* flex-direction: row; */
+        background-color: black;
+    }
+}

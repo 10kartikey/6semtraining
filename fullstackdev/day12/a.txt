@@ -1,0 +1,19 @@
+responsive design - media queries
+
+check media queries on mdn google
+
+more layout option in css
+    - flexbox
+    - grid
+
+css breakpoints
+1. mobile devices
+    - 320px-480px
+2. ipads,tablets
+    - 481px-768px
+3. smallscreens laptop
+    - 769px-1024px
+4.  desktopa,largescreen
+    - 1025px-1200px
+5. extra largescreen,tv
+    - 1201px and more
