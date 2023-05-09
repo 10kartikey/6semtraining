@@ -1,0 +1,117 @@
+.element{
+    width: 200px ;
+    height: 200px;
+    border: solid 1px;
+    border-color: black;
+    /* background-color: aqua; */
+    animation: pulse 5s infinite ;
+}
+
+@keyframes pulse{
+    0%,100%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: cornflowerblue;
+    }
+}
+
+.element:hover{
+    animation: resizer 5s infinite;
+}
+
+@keyframes resizer{
+    0%,100%{
+        transform: scale(1.0);
+        background-color: azure;
+    }
+    50%{
+        transform: scale(0.25);
+        background-color: brown;
+    }
+}
+
+/* box 2 */
+
+.rotate_box{
+    width: 200px ;
+    height: 200px;
+    border: solid 1px;
+    border-color: black;
+    background-color: peru;
+    margin-top: 40px;
+}
+
+
+.rotate_box:hover{
+    animation: rotater 500ms infinite;
+}
+
+@keyframes rotater{
+    0% , 100% {
+        transform: rotate(45deg);
+    }
+}
+
+
+/* box 3 */
+
+.kuchtoh{
+    height: 250px;
+    width: 250px;
+    /* margin: 0 auto; */
+    margin-top: 70px;
+    margin-left: 70px;      
+    background-color:rosybrown ;
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes stretch{
+    0%{
+        transform: scale(.3);
+        background-color: bisque;
+        border-radius: 100%;
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    100%{
+        transform: scale(1.5);
+        background-color: yellowgreen;
+    }
+}
+
+/* box 4 */
+
+.box{
+    background-color: paleturquoise;
+    text-align: center;
+    border-radius: 100%;
+    /* margin: 0 auto; */
+    width: 200px;
+    height: 200px;
+    animation-name: moveDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes moveDown {
+    0%{
+        transform: translate(0px,0px);
+    }
+    50%{
+        transform: translate(300px,400px);
+    }
+    100%{
+        transform: translate(600px,0px);
+    }
+}
