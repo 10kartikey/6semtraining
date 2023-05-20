@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript intro</title>
+</head>
+<body>
+    <!-- inline javascript -->
+    <p onclick="alert('khushi is moti')">inline javascript</p>   
+    <!-- alert("khusi is moti")     yeh error dega kyunki double quotes use kiye hai -->
+
+    <!-- internal js -->
+    <script>
+        // alert('khushi is khodilii')
+        function konsawala(val){
+            console.log(val+val)
+        }
+    </script>
+
+    <p onclick="konsawala('koi value')">sab bdiya hai yrr</p> 
+
+
+    <!-- external js -->
+    <p onclick="dosomething(18)">yeh baahar se kaam krega</p>
+    <script src="day16.js"></script>
+</body>
+</html>

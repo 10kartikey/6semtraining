@@ -1,0 +1,51 @@
+javascript - client side programming language
+    dynamic behaviour of website 
+
+
+fundamentals
+----------------------
+0. wrriting a simple js on web browser - dev tools- console
+1.  data types
+    numbers
+    string
+    arrays
+    boolean
+    object
+2. variable
+3. built in function
+4. operators
+5. using javascript in html
+    inline
+    internal
+    external
+6. control statement
+7. looping
+    while
+    for 
+    for in
+8. user defined functions
+9. document object modelling 
+        document.write
+        document.URL
+        document.head
+        document.body
+        document.links
+
+        i. selecting the html tags
+            document.getElementsByTagName()
+            document.getElementsById()
+            document.getElementsByClassName()
+            document.querySelector()
+            document.querySelectorAll()
+
+        ii. interaction with dom
+            domObject.textContent
+            domObject.innerHTML
+            domObject.style
+            domObject.getAttribute()
+            domObject.setAttribute()
+            domObject.....
+            domObject.appendChild
+            domObject.childNodes[n]
+
+        iii. 
